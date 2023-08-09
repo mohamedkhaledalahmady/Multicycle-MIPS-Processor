@@ -1,6 +1,6 @@
 # _**Multicycle MIPS Processor**_
 > ## _Project Description_
-   * Design of a 32-bit **_Multicycle Micro-Architecture MIPS processor_** based on Von-Neumann architecture fully implemented RTL Verilog.
+   * Design of a 32-bit **_Multicycle Micro-Architecture MIPS processor_** fully implemented RTL Verilog of all modules.
    * Supported Most of Instructions in the Appendix-B in **Digital Design and Computer Architecture** Reference. 
 
 > ## _Contents_
