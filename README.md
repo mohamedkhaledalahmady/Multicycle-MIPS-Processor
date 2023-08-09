@@ -31,7 +31,7 @@ The processor was tested on Modelsim using
 2. GCD Program
 ![GCD_Result](GCD_Result.png)
 
-> ## __Run your own Programs__
+> ## __Run your own Program__
 * You only need to go to [MIPS_TOP_TB.v](MIPS_TOP_TB.v) File, and change parameter `FILENAME` to your machine code.
     ```verilog
     parameter FILENAME = "Input_MEM.txt";  
