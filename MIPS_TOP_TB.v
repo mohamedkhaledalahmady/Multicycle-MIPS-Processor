@@ -4,7 +4,8 @@ module MIPS_TOP_TB();
    reg                      CLK, RST;
 
    
-   parameter FILENAME = "Input_MEM.txt"; //file is used to write the program in
+   // File is used to write the program in
+   parameter FILENAME = "Input_MEM.txt";  
    parameter filename ="programs_check.txt";
    //task is used to display the test case number
    task display_test_case_number (input [5:0] num);  

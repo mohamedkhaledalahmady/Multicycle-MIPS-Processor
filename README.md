@@ -1,40 +1,43 @@
-# _**Muiltycycle MIPS Processor**_
+# _**Multicycle MIPS Processor**_
 > ## _Project Description_
-   * Design of a 32-bit **_Multicycle Micro Architecture MIPS processor_** based on Von-Neumann architecture fully implemented RTL Verilog.
+   * Design of a 32-bit **_Multicycle Micro-Architecture MIPS processor_** based on Von-Neumann architecture fully implemented RTL Verilog.
+   * Supported Most of Instructions in the Appendix-B in **Digital Design and Computer Architecture** Reference. 
 
 > ## _Contents_
    * _RTL files._
-   * _Machine Code For 2 different programs._
+   * _Test Bench File to test the processor by using:_
+        * [All Covered Instruction](Input_MEM.txt)
+        * [Reference TB](programs_check.txt)
         * [Factorial Program](Factorial.txt)
         * [GCD Program](GCD.txt)
 
+> ## _MIPS Modified Architecture_
+![MIPS_Diagram](MIPS_Diagram.png)
 
-> ## _Block Diagram_
-![4](https://user-images.githubusercontent.com/67025780/222915750-254d5014-11f3-4366-93f0-0273003a659c.PNG)
+> ## _FSM of Control Unit_
+![CU_FSM](CU_FSM.png)
+
 
 > ## _Result Figures_
-The processor was tested on Modelsim by three
-* **Factorial program** (of the number `8`)
-* **Fibonacci sequence**.
-* **GCD of two numbers** (between `98` & `56`).
+The processor was tested on Modelsim
+* **Factorial program** (of the number `5`)
+* **GCD of two numbers** (between `68` & `119`).
 
 1. Factorial Program
-![3](https://user-images.githubusercontent.com/67025780/222915822-6406c0e8-1c56-43d8-926e-2d874d24ec3c.PNG)
 
 
-2. Fibonacci Program
-![1](https://user-images.githubusercontent.com/67025780/222915818-4170992a-b2f8-4a87-a7be-cd404d411eaa.PNG)
+2. Factorial Program
 
 
 3. GCD Program
-![GCD(98,56)](https://user-images.githubusercontent.com/67025780/223853300-87dc2b32-ad77-42ee-9a7b-4c20033fb26c.PNG)
 
-> ## __To store your program in instruction memory__
-```verilog
-    reg [width-1:0] memory [entries-1:0];
-    initial begin
-        $readmemh("your program.hex", memory);
-    end
-```
+> ## __Run your own Programs__
+* You only need to go to [MIPS_TOP_TB.v](MIPS_TOP_TB.v) File, and change parameter `FILENAME` to your machine code.
+    ```verilog
+    parameter FILENAME = "Input_MEM.txt";  
+    ```
+
+> ## __Resources__
+* **Digital Design and Computer Architecture Reference** 
 
 
