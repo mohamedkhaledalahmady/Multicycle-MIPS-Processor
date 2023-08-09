@@ -38,6 +38,6 @@ The processor was tested on Modelsim using
     ```
 
 > ## __Resources__
-* **Digital Design and Computer Architecture Reference** 
+* **Digital Design and Computer Architecture Reference** by David Harris & Sarah L. Harris. 
 
 
