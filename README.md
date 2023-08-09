@@ -12,10 +12,10 @@
         * [GCD Program](GCD.txt)
 
 > ## _MIPS Modified Architecture_
-![MIPS_Diagram](MIPS_Diagram.png)
+![MIPS_Diagram](Figures/MIPS_Diagram.png)
 
 > ## _FSM of Control Unit_
-![CU_FSM](CU_FSM.png)
+![CU_FSM](Figures/CU_FSM.png)
 
 
 > ## _Result Figures_
@@ -26,10 +26,10 @@ The processor was tested on Modelsim using
 1. All Covered Instruction [Test Result](All_Instructions_Test_Results.txt)
 
 1. Factorial Program
-![Factorial_Result](Factorial_Result.png)
+![Factorial_Result](Figures/Factorial_Result.png)
 
 2. GCD Program
-![GCD_Result](GCD_Result.png)
+![GCD_Result](Figures/GCD_Result.png)
 
 > ## __Run your own Program__
 * You only need to go to [MIPS_TOP_TB.v](MIPS_TOP_TB.v) File, and change parameter `FILENAME` to your machine code.
