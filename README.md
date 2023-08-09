@@ -22,7 +22,7 @@
 The processor was tested on Modelsim using
 * **All supported instructions**
 * **Factorial program** (of the number `6`)
-* **GCD of two numbers** (between `68` & `119`).
+* **GCD of two numbers** (`68` & `119`).
 1. All Covered Instruction [Test Result](All_Instructions_Test_Results.txt)
 
 1. Factorial Program
