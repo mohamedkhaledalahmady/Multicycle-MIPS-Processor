@@ -20,16 +20,15 @@
 
 > ## _Result Figures_
 The processor was tested on Modelsim
-* **Factorial program** (of the number `5`)
+* **Factorial program** (of the number `6`)
 * **GCD of two numbers** (between `68` & `119`).
+1. All Covered Instruction [Test Result](All_Instructions_Test_Results.txt)
 
 1. Factorial Program
+![Factorial_Result](Factorial_Result.png)
 
-
-2. Factorial Program
-
-
-3. GCD Program
+2. GCD Program
+![GCD_Result](GCD_Result.png)
 
 > ## __Run your own Programs__
 * You only need to go to [MIPS_TOP_TB.v](MIPS_TOP_TB.v) File, and change parameter `FILENAME` to your machine code.
