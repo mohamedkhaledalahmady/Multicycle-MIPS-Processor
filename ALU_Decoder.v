@@ -30,16 +30,14 @@ always@(*)
        'd7:  ALUControl  = 'd8 ;
        'd8:  ALUControl  = 'd0 ;
        'd9:  ALUControl  = 'd0 ;
-       'd12: ALUControl  = 'd0  ;///////////////////////////syscall 
-       'd13: ALUControl  = 'd0  ;/////////////////////////////break
        'd16: ALUControl  = 'd0 ;
        'd17: ALUControl  = 'd0 ;
        'd18: ALUControl  = 'd0 ;
        'd19: ALUControl  = 'd0 ;
        'd24: ALUControl  = 'd9 ;
-       'd25: ALUControl  = 'd12 ;//Multu
+       'd25: ALUControl  = 'd12 ; //Multu
        'd26: ALUControl  = 'd10 ;
-       'd27: ALUControl  = 'd13 ;//divu
+       'd27: ALUControl  = 'd13 ; //divu
        'd32: ALUControl  = 'd0 ; 
        'd33: ALUControl  = 'd14 ; // addu
        'd34: ALUControl  = 'd1 ;
@@ -48,14 +46,14 @@ always@(*)
        'd37: ALUControl  = 'd3 ;
        'd38: ALUControl  = 'd4 ;
        'd39: ALUControl  = 'd5 ;
-       'd42: ALUControl  = 'd11 ;
-       'd43: ALUControl  = 'd16 ;//sltu
+       'd42: ALUControl  = 'd11 ; //slt
+       'd43: ALUControl  = 'd16 ; //sltu
        default: ALUControl  = 'd0 ;
        endcase
      end
      'b1010:  ALUControl = 'd14;
      'b1011:  ALUControl = 'd11;
-     'b1100:  ALUControl = 'd17;
+     'b1100:  ALUControl = 'd16;
    default: ALUControl  = 'd0 ;
    endcase
  end

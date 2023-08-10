@@ -38,4 +38,5 @@ end
 assign A1=instr[25:21];
 assign A2=instr[20:16];
 assign A3=instr[10:6];
+
 endmodule

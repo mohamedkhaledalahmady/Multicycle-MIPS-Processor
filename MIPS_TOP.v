@@ -121,8 +121,6 @@ ALU #(
       .ALUResult_2(ALUResult_2),
       .ALUOut(ALUOut),
       .ALUOut_(ALUOut_),
-      .carry_out(carry_out),
-      .overflow(carry_out),
       .unvalid(unvalid)
 );
 
@@ -303,7 +301,6 @@ hi_lo_reg #(
       .HLEN(HLEN),
       .LEN(LEN),
       .HEN(HEN),
-      .RD1(RD1),
       .hi(hi),
       .lo(lo)
 );

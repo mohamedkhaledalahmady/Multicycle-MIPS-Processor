@@ -5,7 +5,7 @@ module Memory
 (
     input   [CELL_WIDTH-1:0]            A_,WD,
     input                               WE,CLK,RST,
-    input				                IRWrite,
+    input				                           IRWrite,
     output wire [CELL_WIDTH-1:0]        RD,
     output reg  [CELL_WIDTH-1:0]        Instr,
     output reg  [CELL_WIDTH-1:0]        Data

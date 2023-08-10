@@ -4,7 +4,6 @@ module hi_lo_reg #(parameter SIZE = 32)
 input  wire    [SIZE-1:0]      ALUResult_1,
 input  wire    [SIZE-1:0]      ALUResult_2,
 input  wire                    RST,CLK,HLEN,HEN,LEN,
-input  wire    [SIZE-1:0]      RD1,
 output reg     [SIZE-1:0]      hi,
 output reg     [SIZE-1:0]      lo);
 

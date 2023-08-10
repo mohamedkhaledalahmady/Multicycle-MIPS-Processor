@@ -4,8 +4,7 @@ module MIPS_TOP_TB();
    reg                      CLK, RST;
 
    
-   // File is used to write the program in
-   parameter FILENAME = "Input_MEM.txt";  
+   parameter FILENAME = "Input_MEM.txt"; //file is used to write the program in
    parameter filename ="programs_check.txt";
    //task is used to display the test case number
    task display_test_case_number (input [5:0] num);  
@@ -586,8 +585,8 @@ display_test_case_number(59);
 #100
 if (DUT.re.REG[14] == 1) 
 	display_test_case_passed(59);
-      else
-        display_test_case_faild(59);
+else
+    display_test_case_faild(59);
 
 //---------------------------program_check--------------------------------
 RST=1'b0;
